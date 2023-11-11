@@ -1,0 +1,330 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+a {
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+[class*="col-"] {
+    float: left;
+    width: 100%;
+}
+
+
+/* Header start */
+
+
+.header {
+    background-color: #7808e3;
+    text-align: center;
+    padding: 1% 2%;
+}
+
+.head-logo {
+    padding-top: 20px;
+}
+
+.head-logo .logo {
+    height: 100px;
+    width: 100px;
+    padding-top: 15px;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+
+}
+
+.manu-list li {
+    list-style-type: none;
+
+}
+
+.manu-list {
+    margin-left: 36%;
+}
+
+.manu-list li a {
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 15px 5px;
+    display: block;
+    width: 40%;
+    text-transform: uppercase;
+    background-color: coral;
+}
+
+.manu-list li a:hover {
+    background-color: gray;
+}
+
+.head-manu {
+    margin-top: 20px;
+}
+
+.header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Header end */
+
+
+/* Banner start */
+
+.banner {
+    background-image: url("imeges/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner .banner-head {
+    padding: 50px 10px;
+    text-align: center;
+    font-family: 'Italianno', cursive;
+}
+
+.banner .banner-head h1 {
+    color: #7808e3;
+    background-color: rgb(255, 255, 0, 0.7);
+    margin: 20px auto;
+    padding: 10px 2px;
+    width: 100%;
+    font-size: 1.7rem;
+}
+
+.banner .banner-head p {
+    background-color: rgb(0, 128, 0, 0.7);
+    width: 400px;
+    padding: 10px 5px;
+    margin: 40px auto;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.banner .banner-head .order {
+    font-weight: bold;
+    padding: 15px;
+    margin: 15px auto;
+    font-size: 1.8rem;
+    color: white;
+    background-color: rgb(0, 128, 0, 0.9);
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.banner .banner-head .order:hover {
+    transform: scale(1.2);
+}
+
+.banner::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Banner end */
+
+
+/* About start */
+
+.about-content {
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.about-content h1 {
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.dotet {
+    border: dotted 10px black;
+    margin: 5px auto;
+    border-bottom: none;
+    width: 300px;
+}
+
+.about-content p {
+    padding: 10px;
+    line-height: 30px;
+    word-spacing: 5px;
+    font-size: 1.1rem;
+    font-family: 'BIZ UDPMincho', serif;
+}
+
+#about::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* About end */
+
+/* Manue start */
+
+.cards {
+    text-align: center;
+    padding: 5px;
+    transition: 0.6s;
+    box-shadow: 10px 10px 20px burlywood, 0px 0px 20px burlywood, 0px 0px 20px burlywood;
+    border: none;
+
+}
+
+.card-head img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#manue {
+    background-color: black;
+    width: 100%;
+
+}
+
+.card-body {
+    background-color: grey;
+
+}
+
+.card-body h2 {
+    background-color: green;
+    padding: 10px 0px;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.card-body p {
+    font-size: 1rem;
+    font-weight: bolder;
+    margin: 10px auto;
+
+}
+
+.card-body .place-order {
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px auto;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(0, 128, 0, 0.9);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card-body .place-order:hover {
+    transform: scale(1.2);
+}
+
+.cards:hover {
+    transform: scale(0.9);
+}
+
+#manue::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.m-contact {
+    background-color: #595b85;
+}
+
+.cd-map {
+    padding: 5px;
+    margin: 10px auto;
+    width: 100%;
+    height: 400px;
+}
+
+.contact-detals {
+    text-align: center;
+    color: white;
+}
+
+.contact-head h2 {
+    padding: 10px;
+    margin: 5px;
+}
+
+
+
+.m-contact::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.footer {
+    background-color: #060930;
+    padding: 1% 2%;
+    color: white;
+}
+
+.footer-left P {
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer-manu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer-manu ul li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer-manu ul li a {
+    padding: 5px 10px;
+    margin: 25px 5px;
+    font-weight: bold;
+    transition: 0.4s;
+    border-radius: 20px;
+}
+
+.icon-style {
+    color: white;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding-top: 5px;
+}
+
+.footer-manu ul li a.a:hover {
+    background-color: gray;
+}
+
+.footer::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* Manu end */

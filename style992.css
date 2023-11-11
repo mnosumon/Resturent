@@ -1,0 +1,145 @@
+/* For desktop: */
+.col-lg-1 {
+    width: 8.33%;
+}
+
+.col-lg-2 {
+    width: 16.66%;
+}
+
+.col-lg-3 {
+    width: 25%;
+}
+
+.col-lg-4 {
+    width: 33.33%;
+}
+
+.col-lg-5 {
+    width: 41.66%;
+}
+
+.col-lg-6 {
+    width: 50%;
+}
+
+.col-lg-7 {
+    width: 58.33%;
+}
+
+.col-lg-8 {
+    width: 66.66%;
+}
+
+.col-lg-9 {
+    width: 75%;
+}
+
+.col-lg-10 {
+    width: 83.33%;
+}
+
+.col-lg-11 {
+    width: 91.66%;
+}
+
+.col-lg-12 {
+    width: 100%;
+}
+
+
+
+
+/* Header start */
+
+
+
+.head-logo {
+    text-align: left;
+    padding: 5px 0px 0px 30px;
+}
+
+.head-manu {
+    margin-top: 1px;
+}
+
+.manu-list {
+    text-align: right;
+    padding-top: 30px;
+}
+
+.manu-list li {
+
+    display: inline-block;
+}
+
+.manu-list li a {
+    background-color: #7808e3;
+    padding: 10px 25px;
+    width: 130px;
+    margin: 0px 10px;
+    box-sizing: border-box;
+    transition: 0.4s;
+}
+
+.manu-list li a:hover {
+    background-color: transparent;
+    transform: scale(1.2);
+    text-decoration: underline;
+
+}
+
+.contact-detals .contact-head {
+    padding-top: 60px;
+}
+
+/* Header end */
+
+
+/* Banner start */
+
+.banner {
+    position: relative;
+    height: 100vh;
+}
+
+.banner-head {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner .banner-head h1 {
+    width: 1000px;
+    font-size: 3.5rem;
+}
+
+.banner .banner-head p {
+    width: 700px;
+    font-size: 2rem;
+}
+
+/* Banner end */
+
+
+/* footer start */
+.footer-left P {
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.footer-manu ul li a {
+    padding: 10px 15px;
+    margin: 10px;
+
+}
+
+.footer-manu ul {
+
+    text-align: right;
+}
+
+.icon-style {
+    text-align: center;
+}
